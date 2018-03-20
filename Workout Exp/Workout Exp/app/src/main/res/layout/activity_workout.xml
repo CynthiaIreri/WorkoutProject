@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.hfad.starbuzz.WorkoutActivity"
+              android:background="#B71C1C">
+
+  <TextView android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FFEB3B"
+             />
+
+  <TextView
+      android:id="@+id/description"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/name"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:textColor="#FFCDD2"
+      android:textSize="20dp"
+      />
+
+  <Button
+      android:text="MORE TIPS"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/button"
+      android:onClick="browser"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="50dp"
+      android:background="#F9A825"
+      />
+
+  <ImageView
+      android:id="@+id/photo"
+      android:layout_width="200dp"
+      android:layout_alignBottom="@+id/button"
+      android:layout_toRightOf="@+id/name"
+      android:layout_toEndOf="@+id/name"
+      android:layout_marginBottom="66dp"
+      android:layout_height="200dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TopLevelActivity"
+    android:background="#B71C1C">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_height="200dp"
+        android:layout_width="match_parent" />
+
+    <ListView android:id="@+id/list_options"
+        android:layout_width="match_parent"
+        android:entries="@array/options"
+        android:background="#FFEBEE"
+        android:layout_height="249dp" />
+
+    <ImageView
+        android:src="@drawable/logo2"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        />
+
+</LinearLayout>
